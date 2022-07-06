@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: 'Mukta', sans-serif;
 }
+/* Header css start */
 .header-container {
     height: 400px;
     text-align: center;
@@ -13,6 +14,9 @@
     background-size: cover;
 
 }
+p {
+    font-size: 14px;
+}
 .heading-cls {
     color: white;
 }
@@ -21,15 +25,19 @@
     margin-bottom: 20px;
 }
 .button {
-     background-image: linear-gradient(to right, pink,coral);
+     background-image: linear-gradient(to right, rgb(218, 76, 99),rgb(240, 159, 125));
      color: white;
      padding: 10px 20px;
      border-radius: 10px;
      margin-top: 20px;
+     text-decoration: none;
 }
+/* Header css end */
+
+/*  donate-driscription css start */
 .donate-driscription {
     text-align: center;
-    margin-top: 40px;
+    margin-top: 20px;
     margin-bottom: 20px;
 }
 .donate-amount {
@@ -38,34 +46,110 @@
     padding: 20px;
     justify-content: space-around;
     background-color: rgb(240, 234, 225);
+    margin-bottom: 30px;
 }
 .amount-here {
     border: 1px solid coral;
     background-color: bisque;
     padding: 10px;
-    
 }
+/*  donate-driscription css end */
+
+/*  form-container css start */
 .form-container {
     text-align: center;
-    margin-top: 20px;
 }
-label {
-     font-size: 14px;
-}
-input {
-    width: 100%;
+ form input {
+    border-bottom: 1px solid gray;
+    width: 60%;
+    text-align: center;
     border: none;
-    border-bottom: 1px solid rgb(167, 41, 41);
     margin-bottom: 20px;
-}
-.donate-plan-container {
+    border-bottom: 1px solid gray;
+  }
+  /*  form-container css end */
+
+  /* donate-plan-container css start */
+   .donate-plan-container {
     display: flex;
     margin-top: 30px;
 }
 .donate-food {
     text-align: center;
     justify-content: space-between;
-    border: 1px solid gray;
-    background-color: beige;
-
+    padding: 20px;
+    margin: 20px;
 }
+.donate-food p {
+    margin-top: 10px;
+}
+#food-help {
+    background-color: rgb(220, 234, 234);
+}
+#family-help {
+    background-color: rgb(251, 226, 230);
+}
+#education-help {
+    background-color: rgb(232, 219, 203);
+}
+/* donate-plan-containe css end */
+
+
+ /* contribute -container css start */
+.contribute-container {
+    display: flex;
+    margin: 20px;
+}
+.half-width {
+    width: 50%;
+    
+}
+.half-width p {
+    padding: 20px;
+    padding-left: 0;
+}
+.half-width img {
+    width: 100%;
+    height: 300px;
+    padding: 20px;
+}
+.contribute-container #survive-id {
+    padding-left: 20px;
+}
+ /* contribute -container css end */
+
+
+  /*  update-container css start */
+.update {
+     width: 50%;
+     margin: 0 auto;
+     text-align: center;
+     margin-bottom: 20px;
+}
+.email-subscribe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.email-subscribe #email-btn {
+     background-color: rgb(194, 173, 173);
+     padding: 10px;
+     border-right: none;
+}
+.email-subscribe #subscribe-btn {
+    text-decoration: none;
+    border: 2px solid rgb(173, 51, 51);
+    border-left: none;
+    background-color: coral;
+    padding: 8px 10px;
+}
+ /*  update-container css end */
+
+ /*   footer css start */
+  footer {
+    background-color: black;
+    color: rgb(247, 90, 12);
+    text-align: center;
+    margin-top: 50px;
+  }
+  /*   footer css end*/
